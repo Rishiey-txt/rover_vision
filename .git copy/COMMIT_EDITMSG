@@ -1,0 +1,12 @@
+feat: initial commit — ArUco detector + YOLO Streamlit dashboard
+
+- arUco_detector/arUco_detector_cv.py: high-precision long-range ArUco
+  detection with multi-scale pyramid, CLAHE preprocessing, temporal
+  filtering, sub-pixel refinement and distance estimation
+- vision_web/app.py: Streamlit YOLO inference dashboard with live
+  OpenCV feed, MPS/CUDA/CPU auto-selection, HUD overlay and metrics
+- vision_web/requirements.txt: pinned Python dependencies
+- .streamlit/config.toml: dark theme + headless server config
+- .gitignore: excludes venv, model weights (.pt), snapshots, macOS junk
+- README.md: full usage guide with CLI reference and feature table
+- LICENSE: MIT
