@@ -24,7 +24,7 @@ rover_vision/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/<your-username>/rover_vision.git
+git clone https://github.com/Rishiey-txt/rover_vision.git
 cd rover_vision
 ```
 
